@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sports participants form</title>
+        <link rel="icon" type="image/png" href="ball.png">
+    </head>
+    <body>
+        <!-- List -->
+        <h4>Sports</h4>
+            <ul>
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Volleyball</li>
+                <li>Track</li>
+            </ul>
+            <h5>Football</h5>
+            <ol>
+                <li>Goalkeeper </li>
+                <li>Striker</li>
+                <li>Midfielder</li>
+                <li>Defence</li>
+            </ol>
+         
+
+        <!-- Form -->
+        <form action="" method="">
+            <label for="firstname">First name: </label>
+            <input type="text" placeholder="First name" id="firstName" name="firstname" required> 
+            <br><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" placeholder="Last name" id="lastName" name="lastname"required>
+            <br><br>
+            <label for="gender" >Gender:</label>
+            <input type="radio" name="gender" id="Male" value="Male">Male 
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="others" value="others">Others
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="enter email address" id="email" name="email"required> 
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter password" id="password" name="password"required>
+            <br><br>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" placeholder="Re-enter your password" name="confirmPassword" id="confirmPasswordField"required>
+            <br><br>
+            <label for="origin">State of origin:</label>
+            <select name="origin" id="origin">
+                <option value="">--Select your origin--</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Ogun">Ogun</option>
+                <option value="oyo">Oyo</option>
+                <option value="osun">Osun</option>
+                <option value="ondo">Ondo</option>
+                <option value="ekiti">Ekiti</option>
+            </select>
+            <br><br>
+            <label for="comment">Tell us about yourself(500 words min)</label>
+            <textarea name="comment" id="comment" cols="30" rows="30"></textarea>
+            <br><br>
+            <label for="Submit">Submit</label>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <p></p>
+        <!-- Tables -->
+        <table border="2" >
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Religion</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Yusuf Sultan</td>
+                    <td>Male</td>
+                    <td>19</td>
+                    <td>Islam</td>
+                    <td>Goalkeeper</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Lookman Uthman</td>
+                    <td>Male</td>
+                    <td>25</td>
+                    <td>Islam</td>
+                    <td>Striker</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+
+        <!-- Multimedia -->
+         <img src="ball.png" alt="Picture of a football" width="300" height="300">
+         <br><br>
+         <audio controls>
+            <source src="" type="">
+            Your browser does not support audio playback
+         </audio>
+         <br><br>
+
+         <video controls autoplay>
+            <source src="d:\plp classes\Web dev\GitHub Masterclass.mp4" type="video/mp4" >
+            Your browser does not support video playback
+         </video>
+
+    </body>
+</html>
